@@ -37,7 +37,7 @@ Here's our current Stack:
 
 The Creators do their best to employ the best [Security Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/01-introduction/05-introduction).
 
-**All** code is thoroughly analyzed and tested, to make sure there are no leaks, unintended exposures or unidentified "exploits" that could compromise our Users' [Data](#collected-data).
+**All** code is thoroughly analyzed and tested to ensure there are no leaks, unintended exposures, or unidentified "exploits" that could compromise our Users' [Data](#collected--not-shared-data).
 
 ### Collected / (Not) Shared Data
 
