@@ -31,7 +31,7 @@ Here's our current Stack:
 - [Next.JS](https://nextjs.org) - React's Best Offering for the Web.
 - [Tailwind CSS](https://tailwindcss.com) - CSS Made Simple.
 - [ShadCN](https://ui.shadcn.com/) - Clean, Minimalist & Beautiful Component Library.
-- [Convex](https://convex.dev/) - Open-Source Reactive (Real-Time) Database / Auth Backend.
+- [AppWrite](https://appwrite.io/) - Open-Source Real-Time Database / Auth Backend.
 
 ## Security
 
