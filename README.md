@@ -1,29 +1,52 @@
-# Create T3 App
+# Cookie
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
+## Branches
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+### Development - `dev`
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Changes to this Branch are to be considered generally **unstable**.<br>
+It is where we push code that is in active development, and so it is prone to change **at any moment**.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### Production - `prod`
 
-## Learn More
+Changes to this Branch reflect *immediately* (up to 5 minutes) on the project's [Website](https://cookie.overclock.pt), and are thoroughly tested before being pushed / merged.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Development
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Tools
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+| Tool        | Description                           |
+|-------------|---------------------------------------|
+| [Node.JS](https://nodejs.org)      | JavaScript Anywhere.                        |
+| [Bun](https://bun.sh)              | Fastest JS/TS Bundler & Compiler.           |
+| [Git Crypt](https://github.com/AGWA/git-crypt) | GPG-based Repository Encryption.            |
 
-## How do I deploy this?
+### Stack
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+This project was initially created with [T3](https://create.t3.gg).<br>
+However, we don't employ *all* of its Stack.
+
+Here's our current Stack:
+- [Next.JS](https://nextjs.org) - React's Best Offering for the Web.
+- [Tailwind CSS](https://tailwindcss.com) - CSS Made Simple.
+- [ShadCN](https://ui.shadcn.com/) - Clean, Minimalist & Beautiful Component Library.
+- [Convex](https://convex.dev/) - Open-Source Reactive (Real-Time) Database / Auth Backend.
+
+## Security
+
+The Creators do their best to employ the best [Security Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/01-introduction/05-introduction).
+
+**All** code is thoroughly analyzed and tested, to make sure there are no leaks, unintended exposures or unidentified "exploits" that could compromise our Users' [Data](#collected-data).
+
+### Collected / (Not) Shared Data
+
+We don't share **any** [PII](https://www.security.org/identity-theft/what-is-pii/).<br>
+Here's what we (anonymously) collect:
+
+| Data Type   | Purpose                      |
+|-------------|-----------------------------|
+| Device, IP Address & Stack Traces | Bug Reporting System |
+| Last Login Time | Analytics               |
+| E-mail      | Login System            |
+| Username    | Account Identification  |
