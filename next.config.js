@@ -5,6 +5,11 @@
 import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    allowedDevOrigins: [
+        'localhost',
+        'local.nextjs.dev',
+    ],
+};
 
 export default config;
